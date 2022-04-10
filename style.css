@@ -20,6 +20,7 @@ nav {
   nav ul li {
     float: left;
     list-style: none;
+    position: relative;
   }
   nav ul li a {
     display: block;
@@ -27,5 +28,24 @@ nav {
     color: #737373;
     font-size: 14px;
     padding: 24px 14px;
-    text decoration: none;
+    text-decoration: none;
+  }
+  nav ul li ul {
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px; 
+
+  }
+  nav ul li ul li {
+    width: 180px;
+    
+  }
+nav ul li ul li a {
+    padding: 12px 14px;
+    
+  }
+  nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+    
   }
