@@ -12,17 +12,17 @@ nav {
   nav p {
     font-family: Verdana, Arial;
     color: #737373;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 55px;
     position: center;
     padding: 0px;
 
   }
   nav ul {
-    float: left;
+    float: center;
   }
   nav ul li {
-    float: left;
+    float: center;
     list-style: none;
     position: relative;
   }
