@@ -19,10 +19,10 @@ nav {
 
   }
   nav ul {
-    float: center;
+    float: left;
   }
   nav ul li {
-    float: center;
+    float: left;
     list-style: none;
     position: relative;
   }
