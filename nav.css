@@ -30,8 +30,6 @@ nav ul> li ul {
 /*hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
+    color: #ffffff;
 }
-.nav li a:hover {
-   color: #ffffff; 
-    
-}
+
