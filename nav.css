@@ -21,6 +21,16 @@ body {
     color: #737373;  
 }
 
+/*drop-down*/
+nav ul> li ul { 
+    display: block;
+    margin-top: 0;
+    display: none;
+}
+/*hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
 .nav li a:hover {
    color: #ffffff; 
     
