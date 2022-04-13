@@ -45,8 +45,11 @@ nav ul li ul {
 nav ul li :hover ul {
     display: block;
 }
-
-nav ul li ul li a:hover{
+/*drop-down*/
+nav ul>li ul {
+    display: block;
+    margin-top: 0;
+    display:none;
     color: #737373;
 }
 
@@ -54,6 +57,10 @@ nav ul li ul li a {
     padding: 12px 14px;
     
   }
+/*hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
   nav ul li ul li a:hover {
     background-color: #f3f3f3;
     
