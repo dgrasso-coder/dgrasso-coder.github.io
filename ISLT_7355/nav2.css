@@ -1,0 +1,35 @@
+body { 
+    margin:5;
+    padding:0;          
+}
+
+nav{
+    color:#737373;
+    list-style: 0;
+    text-align: center;
+    padding: 20px 0 20px 0;   
+}  
+
+nav ul li {
+    display: inline-block;
+    padding-right: 25px 25px 25px 25px; 
+    border: none; 
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #737373;  
+}
+nav ul li ul {
+    display: none;
+
+}
+
+nav ul li :hover ul {
+    display: block;
+}
+
+nav ul li ul li a:hover{
+    color: #737373;
+}
