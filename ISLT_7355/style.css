@@ -1,6 +1,14 @@
 h1 {
     color:#737373;
+    align-content: center;
 }  
  h2 {
      color:#737373;
   }
+
+  /* Selects the first letter of a <p> */
+  p::first-letter {
+    font-size: 200%;
+
+  }
+
