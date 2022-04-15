@@ -1,14 +1,20 @@
 h1 {
-    color:#737373;
-    align-content: center;
+  color:#737373;
+  align-content: center;
 }  
- h2 {
-     color:#737373;
-  }
+h2 {
+   color:#737373;
+}
 
-  /* Selects the first letter of a <p> */
-  p::first-letter {
-    font-size: 200%;
+ p::first-letter {
 
-  }
+  font-weight: bold;
+  font-size: 200%;
+}
+main {
 
+  width: 1750px;
+  padding: 10px;
+  border: dotted;
+  margin: none;
+}
