@@ -1,11 +1,45 @@
 h1 {
   color:#737373;
   align-content: center;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
 }  
 h2 {
-   color:#737373;
+  color:#737373;
+  align-content: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+p {
+  color: #737373;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+}
+div,p {
+  color: #737373;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 40px;
 }
 
+blockquote {
+  color: #737373;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+}
+footer {
+  color: #737373;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
 p::first-line ::first-letter {
 
   font-weight: bold;
@@ -14,13 +48,13 @@ p::first-line ::first-letter {
 }
 
 
-
 ::first-line ::first-letter
 main {
 
   width: 1750px;
   padding: 10px;
   border: none;
-  margin: none;
+  margin: 0;
   font-size: x-large;
 }
+
