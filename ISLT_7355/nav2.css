@@ -1,11 +1,11 @@
 body { 
-    margin:5;
+    margin:5px;
     padding:0;          
 }
 
 nav {
     color:#737373;
-    list-style: 0;
+    list-style: none;
     text-align: center;
     padding: 20px 0 20px 0;  
     width: 100%;
@@ -17,7 +17,7 @@ nav p {
     color: #737373;
     font-size: 20px;
     line-height: 55px;
-    position: center;
+    text-align: center;
     padding: 0px;
 }
 nav ul li {
