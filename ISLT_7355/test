@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Title: Index/About Page/Dawn M Grasso Portfolio Use: Provide users with About and Education Content Developed by: Dawn M Grasso on March 26 2022 -->
+               <meta charset="utf-8">
+               <title>Dawn M Grasso Portfolio About Me Page</title>
+             <link rel="stylesheet" href="nav2.css">
+             <link rel="stylesheet" href="style.css">
+       <style>
+
+          .flex-container > div {
+            background-color: #FAFAFA;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+              }
+        
+          @media screen and (min-width: 480px) {
+           body {
+           background-color: #FAFAFA;
+           }      
+      
+              .item1 { grid-area: header; }
+              .item2 { grid-area: menu; }
+              .item3 { grid-area: main; }
+              .item4 { grid-area: right; }
+              .item5 { grid-area: footer; }
+              
+              .grid-container {
+                display: grid;
+                grid-template-areas:
+                  'header header header header header header'
+                  'menu main main main main right'
+                  'footer footer footer footer footer footer';
+                gap: 10px;
+                background-color:  #FAFAFA;
+                padding: 10px;
+              }
+
+              .grid-container > div {
+                background-color: #FAFAFA;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+              }
+              p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #737373;
+               }
+               blockquote {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #737373;  
+               }
+               footer {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #737373;  
+                font-size: 15px;
+               }
+               /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  } 
+              </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+</head>
+<body>
+
+<div class="grid-container">
+<div class="item1"><header>
+  
+  <nav>
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li>
+     <div class="dropdown">
+       <button class="dropbtn">Projects</button>
+       <div class="dropdown-content">
+         <a href="#">Goal and Objectives A</a>
+         <a href="#">Goal and Objectives B</a>
+         <a href="#">Goal and Objectives C</a>
+       </div>
+       </div>
+      </li>
+      <li><a href="reflections.html">Personal Reflection</a></li>
+      <li><a href="#">Contact</a></li>
+  </ul>
+        
+   </nav>
+   <h1>Dawn M. Grasso</h1></header></div>
+
+  
+<div class="item2"><blockquote>"People will forget what you said, people will forget what you did, but people will never forget how you made them feel.” 
+  <br><br>
+  - Maya Angelou  </blockquote> </div> 
+<div class="item3">
+   
+  <header><h2 style="text-align:left;">About</h2></header>
+
+  <p>
+      Hi, my name is Dawn Grasso.  I grew up in a small town in New Jersey. I went to college in Pennsylvania and 
+      lived in several other cities before moving to Atlanta, Georgia. I have lived in Georgia for over 30 years.  
+      I have worked in the healthcare field for most of my adult life.  For the past 26 years, I have worked for several medical software companies.   
+      I currently work as a program manager on our onboarding team.   When I am not working or taking classes, I enjoy reading, cooking, and baking.  
+      I do not have any prior experience in web design and development.  
+      I look forward to learning how to design my own professional website this semester.  
+      I am working on my master’s degree in Learning Technologies and Design. My goal is to graduate with both a master’s degree and a Teaching 
+      College Graduate Certificate in the summer of 2023.</p>
+  </p><a href="Grassoresume.PDF">Grassoresume.PDF</a>
+    <br><br>
+    <header><h2 style="text-align:left;">Education</h2></header>
+    <p>
+      Master of Science Degree in Learning Technologies and Design
+      University of Missouri
+      Estimated Completion Date: Fall 2022
+   <br><br>
+      Graduate Certificate in Teaching College
+      University of Missouri
+      Estimated Completion Date: Spring 2023
+    <br><br>
+      Bachelor of Science Degree in Biology
+      Juniata College
+    <br><br>
+      Associate of Science Degree in Dental Hygiene
+      Dekalb College
+     <br><br>  
+    </p>
+<div class="item5"><footer>Dawn M. Grasso | dmg5zd@missouri.edu | Copyright 2022</footer></div>
+</div>
+<div class="item4">
+  <h2></h2>
+  <img width="320" height="340"
+  <img src="headshot without brick.png" style="width:auto"> </img>
+ 
+  <br><br>
+  <video width="320" height="340" poster="/images/w3schools_green.jpg" controls>
+  <source src="Dawn's Resume.mp4" type="video/mp4">
+
+</video></div>          
+
+</main>
+</body>
+</html>
