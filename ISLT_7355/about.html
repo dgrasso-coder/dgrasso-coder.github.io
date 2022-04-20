@@ -8,29 +8,28 @@
              <link rel="stylesheet" href="style.css">
        <style>
 
-              .item1 { grid-area: header; }
-              .item2 { grid-area: menu; }
-              .item3 { grid-area: main; }
-              .item4 { grid-area: right; }
-              .item5 { grid-area: footer; }
-              
-              .grid-container {
-                display: grid;
-                grid-template-areas:
-                "header header header"
-                "menu main right"
-               "footer footer footer";
-               grid-template-columns: 15% 60% 15%;
-                grid-template-rows: 25% 50% 25%;
-                gap: 10px;
-                background-color: #FAFAFA;
-                padding: 5px;
-              }
+        .item1 { grid-area: header; }
+        .item2 { grid-area: quote; }
+        .item3 { grid-area: main; }
+        .item4 { grid-area: image; }
+        .item5 { grid-area: footer; }
+
+        .grid-container {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 25% 50% 25;
+        grid-template-areas:
+        "header header header"
+        "quote main image"
+        "footer footer footer";
+        gap: 10px;
+        background-color: #FAFAFA;
+        padding: 5px;
              
               p {
                 font-family: Arial, Helvetica, sans-serif;
                 color: #737373;
-                font-size: 20px;
+                font-size: auto;
                 text-align: left;
                 
                }
@@ -48,7 +47,6 @@
 
 </head>
 <body>
-
 <div class="grid-container">
   <div class="item1">
  
@@ -79,11 +77,10 @@
      forget what you did, but people will never forget how you made them feel.” </blockquote>
      <br><br>
      - Maya Angelou  
-        </div>
+       
   <br><br>
   
     <div class="item3">
-   
   <header><h2 style="text-align:left;">About</h2></header>
 
   <p>
@@ -116,14 +113,15 @@
      <br><br>  
     </p>
     </div>  
-    <div class="item4"><img src="Headshot.jpg" alt="Headshot" width="250" height="300"><img>
-    </div> 
+    
   <br><br>
 
     <video width="320" height="240" controls>
       <source src="DawnResume.mp4" type="video/mp4">
     </video>
-  
+
+    <div class="item4"><img src="Headshot.jpg" alt="Headshot" width="250" height="300"><img>
+    </div> 
     <div class="item5"><footer>Dawn M. Grasso | dmg5zd@missouri.edu | Copyright 2022</footer></div>
        </body>
        </html>
