@@ -17,17 +17,17 @@
               .grid-container {
                 display: grid;
                 grid-template-areas:
-                'header header header header header header'
-                'menu main main main main right'
-               'footer footer footer footer footer footer';
+                'header header header'
+                'menu main right'
+               'footer footer footer';
                 gap: 10px;
                 background-color: #FAFAFA;
                 padding: 5px;
               }
               .grid-container > div {
                 background-color: pink;
-                grid-template-columns: 25px 50px 50px 50px 50px 25px;
-                grid-template-rows: 30px 100px 30px;
+                grid-template-columns: 15% 60% 15%;
+                grid-template-rows: 25% 50% 25%;
                 text-align: center;
                 padding: 40px 0;
                 font-size: 30px;
