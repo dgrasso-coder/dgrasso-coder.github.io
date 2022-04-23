@@ -27,11 +27,32 @@ main {
   margin: 0;
 
 }
- </style>
-</head>
-<body>           
+  .item1 { grid-area: header; }
+        .item2 { grid-area: main; }
+        .item3 { grid-area: footer; }
+        
 
-   <nav>
+        .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 65% 5%;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        gap: 10px;
+        background-color: #FAFAFA;
+            padding: 5px;
+           }
+           
+ </style> 
+
+</head>
+<body>
+    
+          <div class="grid-container">
+            <div class="item1">
+            <nav>
    <ul>
        <li><a href="index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
