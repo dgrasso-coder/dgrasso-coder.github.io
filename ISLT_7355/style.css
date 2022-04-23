@@ -58,10 +58,4 @@ h1 {
     font-size: x-large;
   }
   
-  /*Color will change to blue for smaller devices*/
-  @media (max-width: 600px) {
-    body {
-      background-color: #87ceeb;
-    }
-  }
   
