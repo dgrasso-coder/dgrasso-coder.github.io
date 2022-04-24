@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Hamburger Menu</title>
+    <link href="ham-menu.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- (A) MENU WRAPPER -->
+    <nav id="hamnav">
+      <!-- (B) THE HAMBURGER -->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+
+      <!-- (C) MENU ITEMS -->
+      <div class="dropdown" id="hamitems">
+        <ul>
+        <li><a href="a.html">Home</a></li>
+        <li><a href="b.html">About</a></li>
+        <li><a href="c.html">Projects</a>
+        <li><a href="d.html">Reflections</a></li>
+        <li><a href="e.html">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
