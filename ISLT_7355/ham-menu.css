@@ -1,28 +1,3 @@
-/* [ON BIG SCREENS] */
-/* (A) WRAPPER */
-#hamnav {
-  width: 100%;
-  background-color: #fafafa;
-  /* Optional */
-  position: sticky;
-  top: 0;
-}
-
-/* (B) HORIZONTAL MENU ITEMS */
-li {display: inline;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-  }
-#hamitems { display: flex; }
-#hamitems a {
-  flex-grow: 1;
-  flex-basis: 0;
-  padding: 10px;
-  color: rgb(23, 0, 128);
-  text-decoration: none;
-  text-align: center;
-}
-#hamitems a:hover { background: #fafafa; }
 
 /* (C) HIDE HAMBURGER */
 #hamnav label, #hamburger { display: none; }
