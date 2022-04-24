@@ -2,7 +2,7 @@
 /* (A) WRAPPER */
 #hamnav {
   width: 100%;
-  background: #fafafa;
+  background-color: #fafafa;
   /* Optional */
   position: sticky;
   top: 0;
@@ -22,7 +22,7 @@ li {display: inline;
   text-decoration: none;
   text-align: center;
 }
-#hamitems a:hover { background: #401408; }
+#hamitems a:hover { background: #fafafa; }
 
 /* (C) HIDE HAMBURGER */
 #hamnav label, #hamburger { display: none; }
