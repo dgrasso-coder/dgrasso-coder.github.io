@@ -8,35 +8,72 @@
                <link rel="stylesheet" href="nav2.css">
                <link rel="stylesheet" href="style.css">
        
+<style>
+
+        .item1 { grid-area: header; }
+        .item2 { grid-area: main; }
+        .item3 { grid-area: footer; }
         
-        <body>
+
+        .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 65% 5%;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        gap: 10px;
+        background-color: #FAFAFA;
+            padding: 5px;
+           }
+           
+ </style> 
+
+</head>
+<body>
+    
+          <div class="grid-container">
+            <div class="item1">
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li>
-                   <div class="dropdown">
-                     <button class="dropbtn">Projects</button>
-                     <div class="dropdown-content">
-                       <a href="#">Goal and Objectives A</a>
-                       <a href="#">Goal and Objectives B</a>
-                       <a href="#">Goal and Objectives C</a>
-                     </div>
-                     </div>
-                    </li>
-                    <li><a href="reflections.html">Personal Reflection</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                        
-                 </nav>
-    <header><h1>Dawn M. Grasso </h1></header>
+   <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li>
+      <div class="dropdown">
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="#">Goal and Objectives A</a>
+          <a href="#">Goal and Objectives B</a>
+          <a href="#">Goal and Objectives C</a>
+        </div>
+        </div>
+       </li>
+       <li><a href="reflections.html">Personal Reflection</a></li>
+       <li><a href="#">Contact</a></li>
+   </ul>       
+        <header><h1>Dawn M. Grasso</h1></header>
+        </nav>
+     </div>
+      </div>
+    <div class="item2">
+    <h2>Goal and Objectives </h2>
     <main>
-    <h2>XXXXXXX</h2>
-   <p>XXXXXXXXXX
-<br><br>
-    XXXXXXXXXXXXXXX
-</p>
-<footer>Dawn M. Grasso | dmg5zd@missouri.edu | Copyright 2022</footer>
-</main>
-</body>
-</html>
+      <p> Project examples </p>
+      <p> Project examples </p>
+      <p> Project examples </p>
+   <h2>Goal and Objectives </h2>     
+      <p> Project examples </p>     
+      <p> Project examples </p>
+      <p> Project examples </p>
+   <h2>Goal and Objectives </h2>
+      <p> Project examples </p>
+      <p> Project examples </p>              
+      <p> Project examples </p>
+    </main>
+    </div>
+
+<div class="item3"><footer>Dawn M. Grasso | dmg5zd@missouri.edu | Copyright 2022</footer></div>
+         </body>
+         </html>
+
