@@ -6,7 +6,7 @@
               <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <title>Dawn M Grasso Portfolio About Page</title>
-               <link rel="stylesheet" href="nav2.css">
+              <link rel="stylesheet" href="ham-menu.css">
                <link rel="stylesheet" href="style.css">
  
     <style>
@@ -62,10 +62,17 @@
 <body>
 <main>
 <div class="grid-container">
-<div class="item1">
- 
-  <nav>
-   <ul>
+            <div class="item1">
+            <nav>
+      <!-- (A) MENU WRAPPER -->
+      <nav id="hamnav">
+       <!-- (B) THE HAMBURGER -->
+       <label for="hamburger">&#9776;</label>
+       <input type="checkbox" id="hamburger"/>
+
+        <!-- (C) MENU ITEMS -->
+        <div class="dropdown" id="hamitems">
+     <ul>
        <li><a href="index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
        <li>
