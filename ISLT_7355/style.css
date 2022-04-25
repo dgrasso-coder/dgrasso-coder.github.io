@@ -50,22 +50,5 @@ p {
     text-align: center;
   }       
 
-  p::first-line ::first-letter {
-  
-    font-weight: bold;
-    font-size: 200%;
-   
-  }
-  
-  
-  ::first-line ::first-letter
-  main {
-  
-    width: 1750px;
-    padding: 10px;
-    border: none;
-    margin: 0;
-    font-size: x-large;
-  }
   
   
