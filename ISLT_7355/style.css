@@ -49,5 +49,11 @@ p {
     text-align: center;
   }       
 
+ 
+@font-face
+ {
+  font-family: salsa;
   
+src: url('Salsa-Regular.tff');
+} 
   
