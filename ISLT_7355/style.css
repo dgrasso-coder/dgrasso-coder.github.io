@@ -48,12 +48,4 @@ p {
     font-size: 1vw;
     text-align: center;
   }       
-
- 
-@font-face
- {
-  font-family: salsa;
-  
-src: url('Salsa-Regular.tff');
-} 
   
