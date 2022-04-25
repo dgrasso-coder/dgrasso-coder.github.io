@@ -15,9 +15,9 @@ nav {
 nav p {
   font-family: Verdana, Arial;
   color: #737373;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 55px;
-  text-align: center;
+  text-align: left;
   padding: 0px;
 }
 nav ul li {
