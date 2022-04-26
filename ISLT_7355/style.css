@@ -44,3 +44,40 @@ p {
     text-align: center;
   }       
   
+/* print styles */
+@media print {
+  @page { size:8.5in 11in; margin: 1in}
+
+  body {
+      color: #000;
+      font-family: serif;
+    }
+    img {display: none;}
+    video { display: none;}
+    nav {display: none}
+    h1, blockquote, p, footer
+  
+  
+    h1 {
+    font-family: Salsa-regular;
+    color: #000;
+    font-size: 12pt;
+  }
+  p {
+      font-family: serif;
+      font-size: 10pt;
+      color: #000;
+    }
+    blockquote {
+      font-family: serif;
+      font-size: 10pt;
+      color: #000; 
+    }
+  
+    footer {
+      font-family: serif;
+      font-size: 10pt;
+      line-height: 10pt;
+      color: #000; 
+}
+}
