@@ -23,7 +23,8 @@ div,p {
   font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-size: 14px;
-  align-content: center;
+  text-align: left;
+
  
 }
 
@@ -31,8 +32,8 @@ blockquote {
   font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-size: 14px;
-  align-content: center;
-  
+  text-align: left;
+
 }
 footer {
   font-family: Arial, Helvetica, sans-serif;
