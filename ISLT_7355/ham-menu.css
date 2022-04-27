@@ -1,6 +1,7 @@
 body { 
   margin:5px;
-  padding:0;          
+  padding:0; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -13,7 +14,7 @@ nav {
   background-color: #fafafa; 
 }  
 nav p {
-  font-family: Verdana, Arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-size: 14px;
   line-height: 55px;
@@ -30,7 +31,7 @@ nav ul li a {
   display: block;
   text-decoration: none;
   color: #737373;  
-  font-family: Verdana, arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding: 24px 14px;
 }
@@ -44,7 +45,7 @@ nav ul li ul {
 
 /* Dropdown Button */
 .dropbtn {
-  font-family: Verdana, Arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   background-color: #ffffff;
   padding: 16px;
@@ -121,7 +122,7 @@ nav ul li ul {
 html, body {
   padding: 0;
   margin: 0;
-  font-family: arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* The container <div> - needed to position the dropdown content */
