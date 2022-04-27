@@ -3,12 +3,14 @@ h1 {
   color: #737373;
   font-size: 14px;
   text-align: center;
+  margin: 35px;
 }  
 h2 {
-   font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-size: 14px;
-   text-align: left;
+  text-align: left;
+  margin: 35px;
 }
 
 p {
@@ -16,6 +18,7 @@ p {
   color: #737373;
   font-size: 14px;
   text-align: left;
+  margin: 35px;
               
 }
 
@@ -24,7 +27,7 @@ div,p {
   color: #737373;
   font-size: 14px;
   text-align: left;
-
+  margin: 35px;
  
 }
 
@@ -33,13 +36,14 @@ blockquote {
   color: #737373;
   font-size: 14px;
   text-align: left;
-
+  margin: 35px;
 }
 footer {
   font-family: Arial, Helvetica, sans-serif;
   color: #737373;
   font-size: 14px;
-  text-align: center;
+  text-align: center;   
+  margin: 35px;
 } 
                          
 nav {
@@ -47,6 +51,7 @@ nav {
   color: #737373;
   font-size: 14px;
   text-align: center;
+  margin: 35px;
 }       
 
 p::first-line ::first-letter {
