@@ -9,7 +9,25 @@
                <link rel="stylesheet" href="style.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
   <style>
-
+      .pic {
+      height: 50px;
+      width: 50px;
+      }
+      .picbig{
+      position: absolute;
+      width: 0px;
+      -webkit-transition:width 0.3s linear 0s;
+      transition.width 0.3s linear 0s; 
+      z-index:10;
+      }
+      .pic:hover + .picbig{
+      width: 200px;
+      
+      
+      }  
+      
+      
+      
         .item1 { grid-area: header; }
         .item2 { grid-area: main; }
         .item3 { grid-area: footer; }
@@ -83,7 +101,10 @@
     </div>
 
 <div class="item3"><footer>Dawn M. Grasso<a target="_blank" href="phone.jpeg">
-    <img class="pic" <img src="phone.jpeg" alt="email" style="width:20px">  1-888-888-8888|  <a target="_blank" href="email icon.jpeg">
-    <img class="pic" <img src="email icon.jpeg" alt="email" style="width:20px"> dmg5zd@missouri.edu| Copyright 2022 </footer></div>
-           </body>
+    <img class="pic" <img src="phone.jpeg" alt="email" style="width:20px">1-888-888-8888|  <a target="_blank" href="email.jpeg">
+    <img class="picbig" <img src="phone.jpeg" alt="email" style="width:20px">
+    <img class="pic" <img src="email.jpeg" alt="email" style="width:20px"> dmg5zd@missouri.edu| Copyright 2022 </footer></div>
+    <img class="picbig" <img src="email.jpeg" alt="email" style="width:20px">     
+    
+    </body>
            </html>
