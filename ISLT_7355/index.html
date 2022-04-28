@@ -14,23 +14,25 @@
       
       
         .item1 { grid-area: header; }
-        .item2 { grid-area: main; }
-        .item3 { grid-area: footer; }
-        
-
-        .grid-container {
+       .item2 { grid-area: main; }
+       .item3 { grid-area: footer; }
+              
+              
+       .grid-container {
         display: grid;
+        grid-template-areas:
+        'header'
+        'main'
+        'footer';
         grid-template-columns: 100%;
         grid-template-rows: 25% 50% 25%;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
         gap: 10px;
-        background-color: #FAFAFA;
-        padding: 5px;
-           }
- 
+        padding: 10px;
+              }
+
+        .grid-container > div {
+        text-align: left;
+        padding: 20px 0;
  </style> 
     
 
