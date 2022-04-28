@@ -112,11 +112,16 @@ main {
 /* print styles */
 @media print {
   @page { size:8.5in 11in; margin: 1in}
+nav; image;
+display: none;
+
+}
+@page {
+margin: 1in;
 }
 
-@media print {
 
-  html, body {
+html, body {
     height:100%; 
     margin: 1in !important; 
     padding: 0 !important;
