@@ -111,9 +111,18 @@ main {
 }
 /* print styles */
 @media print {
-  @page { size:8.5in 11in; margin: 1in}
-{nav; image; video; main; header;
+
+@page {
+margin: 1in; 
+size: 8.5in 11in; 
+nav, .image, .video,  header,
 display: none;
+  
+
+} 
+  
+  
+  
 
 }
 
