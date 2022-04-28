@@ -37,23 +37,26 @@ main {
   margin: 20px;
 
 }
-  .item1 { grid-area: header; }
-  .item2 { grid-area: main; }
-  .item3 { grid-area: footer; }
-        
-
-        .grid-container {
+      .item1 { grid-area: header; }
+       .item2 { grid-area: main; }
+       .item3 { grid-area: footer; }
+              
+              
+       .grid-container {
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 30% 65% 5%;
         grid-template-areas:
-        "header"
-        "main"
-        "footer";
+        'header'
+        'main'
+        'footer';
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 50% 25%;
         gap: 10px;
-        background-color: #FAFAFA;
-            padding: 5px;
-           }
+        padding: 10px;
+              }
+
+        .grid-container > div {
+        text-align: left;
+        padding: 20px 0;
            
  </style> 
 
@@ -87,7 +90,7 @@ main {
        <li><a href="reflections.html">Personal Reflection</a></li>
        <li><a href="#">Contact</a></li>
   </ul>       
-        <h1>Dawn M. Grasso</h1>
+        <header><h1>Dawn M. Grasso</h1></header>
         </nav>
      </div>
     </div>
