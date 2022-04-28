@@ -111,21 +111,13 @@ main {
 }
 /* print styles */
 @media print {
-
 @page {
-margin: 1in; 
-size: 8.5in 11in; 
-nav, .image, .video,  header,
-display: none;
-  
-
-} 
-  
-  
-  
+margin: 1in;  
+nav, image, video, header, display: none;
 
 }
-
+}  
+  
 
 html, body {
     height:100%; 
