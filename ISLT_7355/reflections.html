@@ -13,26 +13,29 @@
     <style>
        
 
-      .item1 { grid-area: header; }
-       .item2 { grid-area: main; }
-       .item3 { grid-area: footer; }
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
               
-              
-       .grid-container {
-        display: grid;
-        grid-template-areas:
-        'header'
-        'main'
-        'footer';
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 50% 25%;
-        gap: 10px;
-        padding: 10px;
+              .grid-container {
+               display: grid;
+               grid-template-areas:
+                  'header'
+                  'main'
+                  'footer';
+               grid-template-columns: 100%;
+               grid-template-rows: 25% 60% 15%;
+               gap: 10px;
+               background-color:  #FAFAFA;
+               padding: 10px;
               }
 
-        .grid-container > div {
-        text-align: left;
-        padding: 20px 0;
+              .grid-container > div {
+               background-color: #FAFAFA;
+               text-align: center;
+               padding: 20px 0;
+               font-size: 30px;
            
  </style> 
 
