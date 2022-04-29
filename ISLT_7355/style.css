@@ -71,16 +71,6 @@ nav {
   font-size: 14px;
   text-align: center;
   margin: 20px;
-}
-
-p::first-line ::first-letter {
-
-  font-family: Arial, Helvetica, sans-serif;
-  color: #737373;
-  font-size: 14px;
-  text-align: center;
-  margin: 20px;
-  font-weight: bold;
   
 }
 
@@ -99,21 +89,12 @@ p::first-line ::first-letter {
       
       }  
 
-::first-line ::first-letter
-main {
-
-  width: 1750px;
-  padding: 10px;
-  border: none;
-  margin: 20px;
-  font-size: x-large;
-}
   
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 100px;
+  width: 10px;
 }
 
 img:hover {
