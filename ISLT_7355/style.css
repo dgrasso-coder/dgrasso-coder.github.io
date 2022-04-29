@@ -148,14 +148,22 @@ footer {
   font-family: serif;
   color: #000;
    
-  .nav, 
-  image, 
-  .video, 
-  header, 
-  display: none;
+  
 
 }
 
-
+  .nav {
+    display: none;
+}
+  image {
+    display: none;
+  }
+  .video {
+    display: none;
+}
+  header {
+    display: none;
+} 
+  display: none;
 
 
