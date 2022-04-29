@@ -147,24 +147,22 @@ footer {
   footer 
   font-family: serif;
   color: #000;
-  font-size: 8px
-   
+  font-size: 8px;  
   
-
-}
 
   .nav {
     display: none;
 }
-  .img {
+  img {
     display: none;
   }
   .video {
     display: none;
 }
-  .header {
+  header {
     display: none;
 } 
- .head {
+ head {
     display: none;
 } 
+}
