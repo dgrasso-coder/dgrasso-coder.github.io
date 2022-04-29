@@ -110,22 +110,29 @@ main {
   font-size: x-large;
 }
 /* print styles */
+
+@print {size:8.5in 11in; margin: 1in}
+  size: 
+
+}
+
 @media print {
-@page {
-margin: 1in;  
-nav, image, video, header, display: none;
+  h1,
+  p,
+  ul,
+  blockquote,
+  footer 
+  font-family: serif;
+  color: #000;
+   
+  .nav, 
+  image, 
+  .video, 
+  header, 
+  display: none;
 
 }
-}  
-  
 
-html, body {
-    height:100%; 
-    margin: 1in !important; 
-    padding: 0 !important;
-    overflow: hidden;
-  }
-}
   
    
 img {
