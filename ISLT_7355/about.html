@@ -6,96 +6,75 @@
               <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <title>Dawn M Grasso Portfolio About Page</title>
-    
-            <link rel="stylesheet" href="ham-menu.css">
+               <link rel="stylesheet" href="nav2.css">
                <link rel="stylesheet" href="style.css">
-               <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
-          
+ 
     <style>
-              .item1 { grid-area: header; }
+       .item1 { grid-area: header; }
               .item2 { grid-area: menu; }
               .item3 { grid-area: main; }
               .item4 { grid-area: right; }
               .item5 { grid-area: footer; }
               
               .grid-container {
-               display: grid;
-               grid-template-areas:
-              'header header header'
-              'menu main right'
-              'footer footer footer';
-               grid-template-columns: 20% 60% 20%;
-               grid-template-rows: 20% 70% 10%;
-               gap: 10px;
-               padding: 0px;
+                display: grid;
+                grid-template-areas:
+                  'header header header'
+                  'menu main right'
+                  'footer footer footer';
+                  grid-template-columns: 20% 60% 20%;
+                  grid-template-rows: 20% 70% 10%;
+                  gap: 10px;
+                background-color:  #FAFAFA;
+                padding: 10px;
               }
 
               .grid-container > div {
-                text-align: left;
+                background-color: #FAFAFA;
+                text-align: center;
                 padding: 20px 0;
-         
-              
+                font-size: 30px;
+              }
+              p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #737373;
+               }
+               blockquote {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #737373;  
+               }
+               footer {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #737373;  
+                font-size: 15px;
                }
               video {
-               width: 50%;
+               width: 80%;
                height: auto;
                }
   
               .responsive {
-                width: 50%;
+                width: 100%;
                 height: auto;
                 }
-        
-             @font-face {
-             font-family: salsa;
-  
-             src: url('Salsa-Regular.tff');
-             }  
-      
-            h1 {
-            font-family: salsa;
-            color: #737373;
-            font-size: 30px;
-            text-align: center;
-            margin: 20px;
-                
-            }  
-             h2 {
-            font-family: salsa;
-            font-family: salsa;
-            color: #737373;
-            font-size: 20px;
-            text-align: left;
-            margin: 20px;
-            }    
               </style>
 </head>
 <body>
 <main>
- <div class="grid-container"></div>
-       <div class="item1">   
-           
-      <!-- (A) MENU WRAPPER -->
-       <nav id="hamnav"></nav>
-       <!-- (B) THE HAMBURGER -->
-       <label for="hamburger">&#9776;</label>
-       <input type="checkbox" id="hamburger"/>
-
-        <!-- (C) MENU ITEMS -->
-          <div class="dropdown" id="hamitems"></div>
-   
-           
-   <nav>
-       <ul>
+<div class="grid-container">
+<div class="item1">
+ 
+  <nav>
+   <ul>
        <li><a href="index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
        <li>
       <div class="dropdown">
         <button class="dropbtn">Projects</button>
         <div class="dropdown-content">
-          <a href="project.html">Goal and Objectives A</a>
-          <a href="project.html">Goal and Objectives B</a>
-          <a href="project.html">Goal and Objectives C</a>
+          <a href="#">Goal and Objectives A</a>
+          <a href="#">Goal and Objectives B</a>
+          <a href="#">Goal and Objectives C</a>
         </div>
         </div>
        </li>
@@ -106,12 +85,13 @@
     </nav>
    <h1>Dawn M. Grasso</h1></div>
 
+
 <div class="item2"><blockquote>"People will forget what you said, people will forget what you did, but people will never forget how you made them feel.” 
   - Maya Angelou  </blockquote> </div> 
 <div class="item3">
    
   <h2 style="text-align:left;">About</h2>
-  
+
   <p>
       Hi, my name is Dawn Grasso.  I grew up in a small town in New Jersey. I went to college in Pennsylvania and 
       lived in several other cities before moving to Atlanta, Georgia. I have lived in Georgia for over 30 years.  
@@ -122,44 +102,38 @@
       I am working on my master’s degree in Learning Technologies and Design. My goal is to graduate with both a master’s degree and a Teaching 
       College Graduate Certificate in the summer of 2023.</p>
     <p><a href="Grassoresume.PDF">Grassoresume.PDF</a></p>
-    <b></b>
+    <br><br>
     <h2 style="text-align:left;">Education</h2>
     <p>
       Master of Science Degree in Learning Technologies and Design
       University of Missouri
       Estimated Completion Date: Fall 2022
-      <b></b>
+   <br><br>
       Graduate Certificate in Teaching College
       University of Missouri
       Estimated Completion Date: Spring 2023
-      <b></b> 
+    <br><br>
       Bachelor of Science Degree in Biology
       Juniata College
-      <b></b>
+    <br><br>
       Associate of Science Degree in Dental Hygiene
       Dekalb College
+     <br><br>  
     </p>
-   
+    </div>
+    
     <div class="item4">
         <img src="Headshot.jpg" alt="Headshot" class="responsive"
-             width="1" height="2">
+             width="25" height="30">
   
-       <video width="35" height="25" controls>
+   <br><br>  
+
+       <video width="50" height="40" controls>
        <source src="DawnResume.mp4" type="video/mp4">
+ 
       </video> </div>   
 
- </div>
-   </main>
-    
-    <div class="item3"><footer>Dawn M. Grasso
-    <img class="pic" img src="phone.jpeg" alt="email">
-    <img class="picbig" img src="phone.jpeg" alt="email">
-    
-    1-888-888-8888|  
-    
-    <img class="pic" img src="email.jpeg" alt="email">
-    <img class="picbig" img src="email.jpeg" alt="email">
-    dmg5zd@missouri.edu| Copyright 2022 </footer></div>
-       
-           </body>
-           </html>
+<div class="item5"><footer>Dawn M. Grasso | dmg5zd@missouri.edu | Copyright 2022</footer></div>
+</div>
+</main>
+</html>
