@@ -11,19 +11,18 @@
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
  
     <style>
-       .item1 { grid-area: header; }
-              .item2 { grid-area: menu; }
-              .item3 { grid-area: main; }
-              .item4 { grid-area: right; }
-              .item5 { grid-area: footer; }
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
               
               .grid-container {
                 display: grid;
                 grid-template-areas:
-                  'header header header'
-                  'menu main right'
-                  'footer footer footer';
-                  grid-template-columns: 20% 60% 20%;
+                  'header'
+                  'main'
+                  'footer';
+                  grid-template-columns: 100%;
                   grid-template-rows: 25% 60% 15%;
                   gap: 10px;
                 background-color:  #FAFAFA;
