@@ -9,45 +9,52 @@
                <link rel="stylesheet" href="style.css">
                <link rel="stylesheet" href="nav2.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
-<style>
+    <!-- An element for first paragraph indent-->  
+    <style>
+       
 
-        .item1 { grid-area: header; }
-        .item2 { grid-area: main; }
-        .item3 { grid-area: footer; }
-        
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
+              
+              .grid-container {
+               display: grid;
+               grid-template-areas:
+                  'header'
+                  'main'
+                  'footer';
+               grid-template-columns: 100%;
+               grid-template-rows: 30% 60% 10%;
+               gap: 10px;
+               background-color:  #FAFAFA;
+               padding: 10px;
+              }
 
-        .grid-container {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 35% 60% 5%;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        gap: 5px;
-        background-color: #FAFAFA;
-        padding: 5px;
-        }
+              .grid-container > div {
+               background-color: #FAFAFA;
+               text-align: center;
+               padding: 20px 0;
+               font-size: 30px;
            
  </style> 
 
 </head>
 <body>
-    
-    <div class="grid-container">
-            <div class="item1">
-            <nav>
-    
-    <!-- (A) MENU WRAPPER -->
-    <nav id="hamnav">
-    <!-- (B) THE HAMBURGER -->
-    <label for="hamburger">&#9776;</label>
-    <input type="checkbox" id="hamburger"/>
 
-    <!-- (C) MENU ITEMS -->
-    <div class="dropdown" id="hamitems">
-      
-   <ul>
+<div class="grid-container">
+<div class="item1">
+ 
+  <nav>
+      <!-- (A) MENU WRAPPER -->
+                <nav id="hamnav"></nav>
+       <!-- (B) THE HAMBURGER -->
+       <label for="hamburger">&#9776;</label>
+       <input type="checkbox" id="hamburger"/>
+
+        <!-- (C) MENU ITEMS -->
+          <div class="dropdown" id="hamitems"></div>
+     <ul>
        <li><a href="index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
        <li>
@@ -62,15 +69,13 @@
        </li>
        <li><a href="reflections.html">Personal Reflection</a></li>
        <li><a href="#">Contact</a></li>
-     </ul>  
-     </div>
-     </nav>
-             <header><h1>Dawn M. Grasso</h1></header>
-   <b><b>
-   <b><b>
-   <b><b>
-    <div class="item2">
-    <h2>Design and Development of Learning Systems</h2>
+   </ul>  
+   </nav>
+   <h1>Dawn M. Grasso</h1></div>
+
+  <main>  
+    <div class="item2"><h2>Design and Development of Learning Systems</h2>
+   
     <p> Goal: To provide students with experiences to develop theory-grounded and research-based competencies for the innovative, aesthetic, 
         effective and sustainable design/development and management of technologies for learning opportunities and systems.</p>
     <main>
