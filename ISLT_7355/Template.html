@@ -1,70 +1,113 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <!-- Title: Index/Home Page/Dawn M Grasso Portfolio Use: Welcome users to site Developed by: Dawn M Grasso on March 26 2022 -->
+   <!-- Title: Index/Home Page/Dawn M Grasso Portfolio Use: Welcome users to site Developed by: Dawn M Grasso on March 26 2022 -->
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <title>Dawn M Grasso Portfolio Template Page</title>
-               <link rel="stylesheet" href="ham-menu.css">
+              <link rel="stylesheet" href="ham-menu.css">
                <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav2.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
+ 
+    <style>
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
+              
+              .grid-container {
+                display: grid;
+                grid-template-areas:
+                  'header'
+                  'main'
+                  'footer';
+                  grid-template-columns: 100%;
+                  grid-template-rows: 40% 50% 10%;
+                  gap: 10px;
+                background-color:  #FAFAFA;
+                padding: 10px;
+              }
+
+              .grid-container > div {
+                background-color: #FAFAFA;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+              }
    
-    
-    
-    <style></style>
-     
+              img {
+               width: 80%;
+               height: auto;
+               }
+        
+              video {
+               width: 80%;
+               height: auto;
+               }
+  
+              .responsive {
+                width: 100%;
+                height: auto;
+                }
+              </style>
 </head>
 <body>
-    <!-- (A) MENU WRAPPER -->
-    <nav id="hamnav">
-      <!-- (B) THE HAMBURGER -->
-      <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger"/>
 
-      <!-- (C) MENU ITEMS -->
-      <div class="dropdown" id="hamitems">
-        <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li>
-    <a href="#">Projects</a>
-    <ul>
-        <li><a href="#">Goal and Objectives A</a></li>
-        <li><a href="#">Goal and Objectives B</a></li>
-        <li><a href="#">Goal and Objectives C</a></li>
-    </ul>
-    </li>
-    <li><a href="reflections.html">Personal Reflection</a></li>
-    <li><a href="#">Contact</a></li>
-   </ul>       
-        <h1>Dawn M. Grasso</h1>
-        </nav>
-     </div>
-    </div>
-    <div class="item2">
-    <h2>H2XXXXXXXXXXXXXXXXX</h2>
+<div class="grid-container">
+<div class="item1">
+ 
+  <nav>
+      <!-- (A) MENU WRAPPER -->
+                <nav id="hamnav"></nav>
+       <!-- (B) THE HAMBURGER -->
+       <label for="hamburger">&#9776;</label>
+       <input type="checkbox" id="hamburger"/>
 
-<main>
+        <!-- (C) MENU ITEMS -->
+          <div class="dropdown-content" id="hamitems"></div>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li>
+       <div class="dropdown">
+           <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="Goal_A">Goal and Objectives A</a>
+          <a href="Goal_B">Goal and Objectives B</a>
+          <a href="Goal_C">Goal and Objectives C</a>
+        </div>
+        </div>
+       </li>
+       <li><a href="reflections.html">Personal Reflection</a></li>
+       <li><a href="#">Contact</a></li>
+   </ul>  
+   </nav>   
+  </div>  
     
-   <p>Paragraph text 
+  <main>  
+ <h1>Dawn M. Grasso</h1>  
+
+     <div class="item2"><h2>Welcome </h2>
     
-    <br><br>
-    
-    Paragraph text
-    
-    <br><br>
-       
-       
-    <br><br>   
-    Paragrahp text</p>
-<br><br>
-     
+
+   
+     <h2>Purpose </h2>
+   <p>   </p>
     </div>
    </main>
     
-    </div>
-<div class="item3"><footer>Dawn M. Grasso<a target="_blank" href="phone.jpeg">
-    <img src="phone.jpeg" alt="email" style="width:20px">  1-888-888-8888|  <a target="_blank" href="email icon.jpeg">
-  <img src="email icon.jpeg" alt="email" style="width:20px"> dmg5zd@missouri.edu| Copyright 2022 </footer></div>
-         </body>
-         </html>
+<div class="item3"><footer>Dawn M. Grasso
+    <img class="pic" img src="phone.jpeg" alt="email">
+    <img class="picbig" img src="phone.jpeg" alt="email">
+    
+    1-888-888-8888|  
+    
+    <img class="pic" img src="email.jpeg" alt="email">
+    <img class="picbig" img src="email.jpeg" alt="email">
+    dmg5zd@missouri.edu| Copyright 2022 </footer></div>
+       
+    </div>        
+    </body>
+    </html>
+
