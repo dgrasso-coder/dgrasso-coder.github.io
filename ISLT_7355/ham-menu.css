@@ -94,7 +94,15 @@ nav ul li ul {
 .dropdown:hover .dropbtn {background-color: #f1f1f1;}
 
 
-
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: rgb(23, 0, 128);
+  text-decoration: none;
+  text-align: center;
+}
 
 /* (C) HIDE HAMBURGER */
 #hamnav, label, #hamburger { display: none; }
