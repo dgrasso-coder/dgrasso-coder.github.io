@@ -97,7 +97,7 @@ nav ul li ul {
 
 
 /* (C) HIDE HAMBURGER */
-#hamnav; #hamburger { display: none; }
+#hamnav, label, #hamburger { display: none; }
 
 /* [ON SMALL SCREENS] */
 @media screen and (max-width: 768px){
