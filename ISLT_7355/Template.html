@@ -59,47 +59,12 @@
        <li><a href="about.html">About</a></li>
        <li>
        <div class="dropdown">
-            <form action="/action_page.php">
-            <label for="Project.html">Projects:</label>
-            <select name="Goals" id="cars">
-            <option value = a href="Project.html">Goal A</a></option>
-            <option value="Project.html">Goal B</option>
-            <option value="Project.html">Goal C</option>
-          
-          
-          <script language="javascript">
-function SelectRedirect(){
-// ON selection of section this function will work
-//alert( document.getElementById('s1').value);
-
-switch(document.getElementById('s1').value)
-{
-case "Project":
-window.location="Project.html";
-break;
-
-case "Goal A":
-window.location="Goal_A";
-break;
-
-case "Goal B":
-window.location="Goal_B";
-break;
-case "Goal C:
-window.location="Goal_C";
-break;
-
-
-/// Can be extended to other different selections of SubCategory //////
-default:
-window.location="../"; // if no selection matches then redirected to home page
-break;
-}// end of switch 
-}
-////////////////// 
-</script>
-   
-  </select>
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="Goal_A">Goal and Objectives A</a>
+          <a href="Goal_B">Goal and Objectives B</a>
+          <a href="Goal_C">Goal and Objectives C</a>
+        </div>
         </div>
        </li>
        <li><a href="reflections.html">Personal Reflection</a></li>
@@ -130,12 +95,7 @@ break;
        Send Button (Submit):
        </p>
     
-     <form action="/action_page.php">
-  <label for="Project.html">Projects:</label>
-  <select name="Goals" id="cars">
-    <option value="Goal_A">Goal A</option>
-    <option value="Goal_B">Goal B</option>
-    <option value="Goal_C">Goal C</option>
+     <form action="/action_page.php"
    
   </select>
   <br><br>
