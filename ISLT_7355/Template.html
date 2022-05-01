@@ -47,6 +47,65 @@ input[type=submit]:hover {
    <style>
     
  
+ <!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Title: Index/Home Page/Dawn M Grasso Portfolio Use: Welcome users to site Developed by: Dawn M Grasso on March 26 2022 -->
+               <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Dawn M Grasso Portfolio Home Page</title>
+              <link rel="stylesheet" href="ham-menu.css">
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav2.css">
+               <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
+ 
+    <style>
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
+              
+              .grid-container {
+                display: grid;
+                grid-template-areas:
+                  'header'
+                  'main'
+                  'footer';
+                  grid-template-columns: 100%;
+                  grid-template-rows: 40% 50% 10%;
+                  gap: 10px;
+                background-color:  #FAFAFA;
+                padding: 10px;
+              }
+
+              .grid-container > div {
+                background-color: #FAFAFA;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+              }
+   
+              img {
+               width: 80%;
+               height: auto;
+               }
+        
+              video {
+               width: 80%;
+               height: auto;
+               }
+  
+              .responsive {
+                width: 100%;
+                height: auto;
+                }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+<div class="item1">
+ 
   <nav>
       <!-- (A) MENU WRAPPER -->
                 <nav id="hamnav"></nav>
@@ -77,26 +136,13 @@ input[type=submit]:hover {
     
   <main>  
  <h1>Dawn M. Grasso</h1>  
-   
-</head>
-<body>
- 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <label for="email">Email :</label><br>
-  <input type="text" id="email" name="email" value=""><br><br>
-  <label for="message">Message:</label><br>
-  <input type="text" id="Messagetext" name="Message" value=""><br><br>
-  <input type="submit" value="Submit">
-  
-</form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+     <div class="item2"><h2>Welcome </h2>
+    
 
-    </main>
+   <p>  
+    </div>
+   </main>
     
 <div class="item3"><footer>Dawn M. Grasso
     <img class="pic" img src="phone.jpeg" alt="email">
@@ -108,8 +154,7 @@ input[type=submit]:hover {
     <img class="picbig" img src="email.jpeg" alt="email">
     dmg5zd@missouri.edu| Copyright 2022 </footer></div>
        
-         </div>
-</body>
-</html>
-
+    </div>        
+    </body>
+    </html>
 
