@@ -9,41 +9,45 @@
                <link rel="stylesheet" href="style.css">
                <link rel="stylesheet" href="nav2.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
-    <!-- An element for first paragraph indent-->  
-    <style>
-       
+   
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
-              .item1 { grid-area: header; }
-              .item2 { grid-area: main; }
-              .item3 { grid-area: footer; }
-      
-              
-              .grid-container {
-               display: grid;
-               grid-template-areas:
-                  'header'
-                  'main'
-                  'footer';
-               grid-template-columns: 100%;
-               grid-template-rows: 35% 60% 5%;
-               gap: 10px;
-               background-color:  #FAFAFA;
-               padding: 10px;
-              }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-              .grid-container > div {
-               background-color: #FAFAFA;
-               text-align: center;
-               padding: 20px 0;
-               font-size: 30px;
-           
- </style> 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
 
 </head>
 <body>
 
-<div class="grid-container">
-<div class="item1">
  
   <nav>
       <!-- (A) MENU WRAPPER -->
