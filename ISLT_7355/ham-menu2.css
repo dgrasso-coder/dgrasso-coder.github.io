@@ -20,7 +20,7 @@ li {display: inline;
   flex-grow: 1;
   flex-basis: 0;
   padding: 10px;
-  color: #FFFFFF;
+  color: #000080;
   text-decoration: none;
   text-align: center;
 }
@@ -42,7 +42,7 @@ li {display: inline;
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label {
     display: inline-block;
-    color: #FFFFF;
+    color: #000080;
     background: #a0208b;
     font-style: normal;
     font-size: 1.2em;
