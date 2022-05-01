@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-   <!-- Title: Contact Page/Dawn M Grasso Portfolio Use: Welcome users to site Developed by: Dawn M Grasso on May 1 2022 -->
-              <meta charset="utf-8">
+    <!-- Title: Contact Page/Dawn M Grasso Portfolio Use: Welcome users to site Developed by: Dawn M Grasso on May 1 2022 -->
+               <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <title>Dawn M Grasso Portfolio Contact Page</title>
-               <link rel="stylesheet" href="ham-menu.css">
+              <link rel="stylesheet" href="ham-menu.css">
                <link rel="stylesheet" href="style.css">
                <link rel="stylesheet" href="nav2.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
+ 
+    <style>
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
+              
+              .grid-container {
+                display: grid;
+                grid-template-areas:
+                  'header'
+                  'main'
+                  'footer';
+                  grid-template-columns: 100%;
+                  grid-template-rows: 40% 50% 10%;
+                  gap: 10px;
+                background-color:  #FAFAFA;
+                padding: 10px;
+              }
+
+              .grid-container > div {
+                background-color: #FAFAFA;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+              }
    
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
- </style> 
-
+              img {
+               width: 80%;
+               height: auto;
+               }
+        
+              video {
+               width: 80%;
+               height: auto;
+               }
+  
+              .responsive {
+                width: 100%;
+                height: auto;
+                }
+              </style>
 </head>
 <body>
 
@@ -66,7 +71,7 @@ input[type=submit]:hover {
        <li><a href="about.html">About</a></li>
        <li>
        <div class="dropdown">
-        <button class="dropbtn">Projects</button>
+           <button class="dropbtn">Projects</button>
         <div class="dropdown-content">
           <a href="Goal_A">Goal and Objectives A</a>
           <a href="Goal_B">Goal and Objectives B</a>
@@ -75,39 +80,26 @@ input[type=submit]:hover {
         </div>
        </li>
        <li><a href="reflections.html">Personal Reflection</a></li>
-       <li><a href="#">Contact</a></li>
+       <li><a href="Contact.html">Contact</a></li>
    </ul>  
    </nav>   
   </div>  
- 
+    
   <main>  
- <h1>Dawn M. Grasso</h1>     
-   
-    <div class="item2">
+ <h1>Dawn M. Grasso</h1>  
 
-<h3>Contact Form</h3>
+     <div class="item2"><h2>Welcome </h2>
+    
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="">
-
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="">
-
-    </select>
-
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="" style="height:100px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-</div>
+   <p>  My name is Dawn Grasso, and I am pursuing my master’s degree in Learning Technologies and Design.  I welcome you to navigate through my professional 
+        portfolio to see examples of my work and the knowledge gained throughout my time at the University of Missouri. </p>
+     <h2>Purpose </h2>
+    <p> The purpose of this portfolio website is to help create my professional brand.  In addition, to provide a more personalized view into my educational 
+        and professional background and experience.  The goal of my portfolio is to provide a space where I can showcase examples of what I have learned in 
+        various courses as well as the work I have accomplished throughout my time at the University of Missouri. Finally, the objective of my portfolio is 
+        to align the competencies associated with my master’s degree in Learning Technologies and Design with projects and assignments I have completed 
+        throughout my time at the University of Missouri. 
+    </div>
    </main>
     
 <div class="item3"><footer>Dawn M. Grasso
