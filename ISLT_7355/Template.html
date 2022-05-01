@@ -43,11 +43,37 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-</style>
 
-</head>
-<body>
+   <style>
+       
 
+              .item1 { grid-area: header; }
+              .item2 { grid-area: main; }
+              .item3 { grid-area: footer; }
+      
+              
+              .grid-container {
+               display: grid;
+               grid-template-areas:
+                  'header'
+                  'main'
+                  'footer';
+               grid-template-columns: 100%;
+               grid-template-rows: 30% 60% 10%;
+               gap: 10px;
+               background-color:  #FAFAFA;
+               padding: 10px;
+              }
+
+              .grid-container > div {
+               background-color: #FAFAFA;
+               text-align: center;
+               padding: 20px 0;
+               font-size: 30px;
+       
+
+<div class="grid-container">
+<div class="item1">
  
   <nav>
       <!-- (A) MENU WRAPPER -->
@@ -63,7 +89,7 @@ input[type=submit]:hover {
        <li><a href="about.html">About</a></li>
        <li>
        <div class="dropdown">
-        <button class="dropbtn">Projects</button>
+           <button class="dropbtn">Projects</button>
         <div class="dropdown-content">
           <a href="Goal_A">Goal and Objectives A</a>
           <a href="Goal_B">Goal and Objectives B</a>
@@ -78,6 +104,10 @@ input[type=submit]:hover {
   </div>  
     
   <main>  
+ <h1>Dawn M. Grasso</h1>  
+   
+</head>
+<body>
  
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
