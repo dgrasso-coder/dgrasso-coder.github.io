@@ -65,6 +65,39 @@
             <option value = a href="Project.html">Goal A</a></option>
             <option value="Project.html">Goal B</option>
             <option value="Project.html">Goal C</option>
+          
+          
+          <script language="javascript">
+function SelectRedirect(){
+// ON selection of section this function will work
+//alert( document.getElementById('s1').value);
+
+switch(document.getElementById('s1').value)
+{
+case "Project":
+window.location="Project.html";
+break;
+
+case "Goal A":
+window.location="Goal_A";
+break;
+
+case "Goal B":
+window.location="Goal_B";
+break;
+case "Goal C:
+window.location="Goal_C";
+break;
+
+
+/// Can be extended to other different selections of SubCategory //////
+default:
+window.location="../"; // if no selection matches then redirected to home page
+break;
+}// end of switch 
+}
+////////////////// 
+</script>
    
   </select>
         </div>
