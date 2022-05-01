@@ -2,6 +2,7 @@
 /* (A) WRAPPER */
 #hamnav {
   width: 100%;
+  height: 200px;
   background-image: url(techbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
