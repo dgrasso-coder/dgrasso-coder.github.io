@@ -5,77 +5,78 @@
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                <title>Dawn M Grasso Portfolio Projects Page</title>
-               <link rel="stylesheet" href="ham-menu.css">
+              <link rel="stylesheet" href="ham-menu2.css">
                <link rel="stylesheet" href="style.css">
-               <link rel="stylesheet" href="nav2.css">
+               <link rel="stylesheet" href="nav.css">
                <link rel="shortcut icon" type="image/x-icon" href="favicon16.png">
-    <!-- An element for first paragraph indent-->  
-    <style>
-       
+   
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
-              .item1 { grid-area: header; }
-              .item2 { grid-area: main; }
-              .item3 { grid-area: footer; }
-      
-              
-              .grid-container {
-               display: grid;
-               grid-template-areas:
-                  'header'
-                  'main'
-                  'footer';
-               grid-template-columns: 100%;
-               grid-template-rows: 30% 60% 10%;
-               gap: 10px;
-               background-color:  #FAFAFA;
-               padding: 10px;
-              }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-              .grid-container > div {
-               background-color: #FAFAFA;
-               text-align: center;
-               padding: 20px 0;
-               font-size: 30px;
-           
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    
+h1{
+    	text-align: center;
+    }    
+
  </style> 
-
 </head>
 <body>
 
-<div class="grid-container">
-<div class="item1">
- 
-  <nav>
-      <!-- (A) MENU WRAPPER -->
-                <nav id="hamnav"></nav>
-       <!-- (B) THE HAMBURGER -->
-       <label for="hamburger">&#9776;</label>
-       <input type="checkbox" id="hamburger"/>
+    <!-- (A) MENU WRAPPER -->
+    <nav id="hamnav">
+      <!-- (B) THE HAMBURGER -->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
 
-        <!-- (C) MENU ITEMS -->
-          <div class="dropdown-content" id="hamitems"></div>
-     <ul>
-       <li><a href="index.html">Home</a></li>
-       <li><a href="about.html">About</a></li>
-       <li>
-       <div class="dropdown">
-        <button class="dropbtn">Projects</button>
-        <div class="dropdown-content">
-          <a href="Goal_A">Goal and Objectives A</a>
-          <a href="Goal_B">Goal and Objectives B</a>
-          <a href="Goal_C">Goal and Objectives C</a>
+      <!-- (C) MENU ITEMS -->
+      <div class="dropdown" id="hamitems">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a>
+           <div class="dropdown-content">
+          <a href="project.html">Goal_A</a>
+          <a href="project.html">Goal_B</a>
+          <a href="project.html">Goal_C</a>
         </div>
-        </div>
-       </li>
-       <li><a href="reflections.html">Personal Reflection</a></li>
-       <li><a href="Contact.html">Contact</a></li>
-   </ul>  
-   </nav>   
-  </div>  
-   
- 
-  <main>  
- <h1>Dawn M. Grasso</h1>     
+        <li><a href="reflections.html">Reflection</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+   <h1>Dawn M. Grasso</h1>
+
    
     <div class="item2">
   <h2><a id="Goal_A">Design and Development of Learning Systems.</a></h2>
