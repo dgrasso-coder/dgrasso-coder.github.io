@@ -77,25 +77,21 @@ h1{
   </body>
      <h1>Dawn M. Grasso</h1>
    <h2>Contact Form</h2>
-      
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="">
- <b></b>
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="">
- <b></b>
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="">
- <b></b>
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="" style="height:100px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
+ <main>      
+<div class="contactform">
+        <form action="mailto:dmg5zd@mail.missouri.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+    <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name." required autofocus><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name." required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email." required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Please write your message here." required style="height: 200px"></textarea><br><br>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+</main>
     
 <footer>Dawn M. Grasso
     <img class="pic" img src="phone.jpeg" alt="email">
