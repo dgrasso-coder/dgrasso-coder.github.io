@@ -108,6 +108,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  font-weight: bold;
   text-align: center;
   padding: 20px;
 }
