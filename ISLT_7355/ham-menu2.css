@@ -24,7 +24,8 @@ li {display: inline;
   flex-grow: 1;
   flex-basis: 0;
   padding: 10px;
-  color: #000080;
+  color: #FFFFFF;
+  font-weight: bold;
   text-decoration: none;
   text-align: center;
 }
