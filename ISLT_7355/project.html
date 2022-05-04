@@ -53,26 +53,24 @@ h1{
 <body>
 
     <!-- (A) MENU WRAPPER -->
-    <nav id="hamnav">
-      <!-- (B) THE HAMBURGER -->
-      <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger"/>
-
-      <!-- (C) MENU ITEMS -->
-      <div class="dropdown" id="hamitems">
+  <nav id="hamnav">
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+        <div class="dropdown" id="hamitems">
         <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="project.html">Project</a>
-           <div class="dropdown-content">
-          <a href="#Goal_A">Gaming Blog</a>
-          <a href="#Goal_B">Project Management</a>
-          <a href="#Goal_C">How to Plan a Budget</a>
-        </div>
-        <li><a href="reflections.html">Reflection</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul id="mobileHide">
+                    <li><a href="#Goal_A">Gaming Blog</a></li>
+                    <li><a href="#Goal_B">Project Management</a></li>
+                    <li><a href="#Goal_C">Plan a Budget</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
+        </div>
     </nav>
   </body>
     <h1>Dawn M. Grasso</h1>
