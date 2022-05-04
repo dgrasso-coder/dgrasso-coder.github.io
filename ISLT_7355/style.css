@@ -109,10 +109,10 @@ footer {
   background-image: url(techbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #737373;
+  color: #FFFFFF;
   font-weight: bold;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
 }
 
 .headshot { 
