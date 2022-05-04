@@ -1,101 +1,114 @@
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-  color: #737373;
-  font-size: 14px;
-    line-height: 55px;
-    text-align: center;
-    padding: 0px;
+* {
+    margin: 0;
 }
 
 nav {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
-    font-size: 14px;
-    list-style: none;
-    text-align: center;
-    padding: 20px 0 20px 0;  
     width: 100%;
-    height: 60px;
-    background-color: #fafafa; 
-}  
-nav p {
-   font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
-    font-size: 14px;
-    line-height: 55px;
-    text-align: left;
-    padding: 0px;
+    height: 80px;
+    background-color: #083224;
+    top: 0;
 }
-nav ul li {
- font-family: Arial, Helvetica, sans-serif;
-  color: #737373;
-  font-size: 14px;
-  display: inline-block;
-  padding-right: 0px; 
-  border: none; 
 
+
+nav ul {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+ 
+nav ul li {
+    display: inline;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    width: 125px;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+    float: left;
+    position: relative;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
 }
 
 nav ul li a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
-    font-size: 14px;
-    display: block;
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
-    padding: 24px 14px;
-}
-nav ul li ul {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
-    font-size: 14px;
-    display: none;
+    width: 110px;
+    padding: 2px 1px;
     display: block;
-    position: absolute;
-    background-color: #ffffff;
-    padding: 10px; 
 }
 
-/* Dropdown Button */
-.dropbtn {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
-    background-color: #ffffff;
-    padding: 16px;
-    font-size: 14px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  /* Links inside the dropdown */
-.dropdown-content a {
-    color: #737373;;
-    padding: 12px 16px;
-    text-decoration: none;
+nav ul li ul {
     display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #f1f1f1;}
-  
+    position: absolute;
+    background-color: #083224;
+    padding: 10px;
+}
+
+/*drop-down*/
+nav ul>li ul {
+    display: block;
+    margin-top: 0;
+    display: none;
+}
     
+/*hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
+
+/*Do I need this?*/
+nav ul li ul li a {
+    padding: 2px 1px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #d08d57;
+}
+
+nav :hover ul {
+    display: block;
+}
+
+nav :hover #mobilehide {
+    display: none;
+}
+
+
+/* (C) HIDE HAMBURGER code from JK's example */
+#hamnav label, #hamburger { display: none; }
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* (A) BREAK INTO VERTICAL MENU */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    background-color: #083224;
+    width: 100%;
+    border-top: 1px solid #333;
   
+  }
+
+  /* (B) SHOW HAMBURGER ICON */
+  #hamnav label {
+    display: inline-block;
+    color: #f3efe9;
+    background: #d08d57;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
