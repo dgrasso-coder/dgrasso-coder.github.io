@@ -2,12 +2,17 @@
 /* (A) WRAPPER */
 #hamnav {
   width: 100%;
+  height: 100px;
+  color: ffffff
+  font-weight: bold;
   background-image: url(techbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: sticky;
   top: 0;
+  padding: 20px;
 }
+
 
 /* (B) HORIZONTAL MENU ITEMS */
 li {display: inline;
