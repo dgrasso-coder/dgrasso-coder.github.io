@@ -39,10 +39,11 @@ li {display: inline;
   #hamitems a {
     box-sizing: border-box;
     display: block;
+    background-color: #052742;
     width: 100%;
     border-top: 1px solid #333;
+  
   }
-
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label {
     display: inline-block;
