@@ -22,16 +22,24 @@ nav p {
     text-align: left;
     padding: 0px;
 }
-nav ul li {
- font-family: Arial, Helvetica, sans-serif;
-  color: #737373;
-  font-size: 14px;
-  display: inline-block;
-  padding-right: 0px; 
-  border: none; 
 
+nav ul li {
+    display: inline;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    width: 125px;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0;
+    float: left;
+    position: relative;
 }
 
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
 
 nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
