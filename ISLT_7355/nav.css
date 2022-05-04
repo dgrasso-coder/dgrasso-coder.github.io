@@ -36,24 +36,23 @@ nav ul li {
 
 
 nav ul li a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #737373;
-  font-size: 14px;
-  display: block;
-  text-decoration: none;
-  padding: 24px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 110px;
+    padding: 2px 1px;
+    display: block;
 }
 
 nav ul li ul {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
-    font-size: 14px;
-    display: none;
     display: block;
     position: absolute;
-    background-color: #ffffff;
-    padding: 10px; 
+    background-color: #052742;
+    padding: 10px;
 }
+
 
 /* Dropdown Button */
 .dropbtn {
