@@ -3,7 +3,7 @@
 #hamnav {
   width: 100%;
   height: 100px;
-  color: ffffff
+  color: #FFFFFF;
   font-weight: bold;
   background-image: url(techbackground.jpg);
   background-repeat: no-repeat;
@@ -47,7 +47,8 @@ li {display: inline;
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label {
     display: inline-block;
-    color: #000080;
+    color: #FFFFFF;
+    font-weight: bold;
     background: #a0208b;
     font-style: normal;
     font-size: 1.2em;
