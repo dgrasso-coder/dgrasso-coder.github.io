@@ -5,7 +5,6 @@
   background-image: url(techbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* Optional */
   position: sticky;
   top: 0;
 }
