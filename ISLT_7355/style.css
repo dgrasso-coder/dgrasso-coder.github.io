@@ -107,9 +107,12 @@ img {
    width: 100%;
   height: auto;
     }
+
 .headshot { 
     width: 25%; height: auto;
-
+    margin-left: auto;
+    padding-left: 400px;
+}
 
 
 img:hover {
