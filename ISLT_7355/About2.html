@@ -68,7 +68,24 @@ input[type=submit]:hover {
 h1{
     	text-align: center;
     }    
-
+   
+ .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .text {
+        color: #CD5C5C;
+        padding-left: 20px;
+        font: italic 10px "Fira Sans", serif;
+      }   
  </style> 
 </head>
 <body>
@@ -107,6 +124,11 @@ h1{
       I look forward to learning how to design my own professional website this semester.  
       I am working on my master’s degree in Learning Technologies and Design. My goal is to graduate with both a master’s degree and a Teaching 
       College Graduate Certificate in the summer of 2023.</p>
+    
+    <div class="text">
+        <h1>London is the capital and largest city of England.</h1>
+      
+    </div>
     <p><a href="Grassoresume.PDF">Grasso Resume PDF</a></p>
     <h2 style="text-align:left;">Education</h2>
     <p>
@@ -158,7 +180,8 @@ h1{
 </table>
 </div>      
     
-    
+   <div class="container">
+      <div class="image">  
     
         <img src="Headshot.jpg" alt="headshot" class="responsive" width="6" height="4">
     
@@ -166,7 +189,9 @@ h1{
        <source src="DawnResume.mp4" type="video/mp4">
  
       </video> 
-
+   </div>
+   </div>
+      
     <footer>Dawn M. Grasso
     <img class="pic" img src="phone.jpeg" alt="email">
     <img class="picbig" img src="phone.jpeg" alt="email">
