@@ -22,12 +22,16 @@ li {display: inline;
 #hamitems a {
   flex-grow: 1;
   flex-basis: 0;
-  padding: 10px;
+  padding: 0px;
   color: #FFFFFF;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  
+  
 }
 #hamitems a:hover { background: #052742; }
 
