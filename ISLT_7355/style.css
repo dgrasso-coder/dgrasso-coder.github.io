@@ -72,12 +72,12 @@ nav {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin: 20px;
+  margin: 18px;
   width: 100%;
   height: 80px;
   background-color: #052742;
   top: 0;
-  
+  padding: 10px;
 }
 
 .pic {
