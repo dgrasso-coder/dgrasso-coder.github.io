@@ -22,7 +22,7 @@ li {display: inline;
 #hamitems a {
   flex-grow: 1;
   flex-basis: 0;
-  padding: 0px;
+  padding: 20px;
   color: #FFFFFF;
   font-weight: bold;
   font-size: 18px;
