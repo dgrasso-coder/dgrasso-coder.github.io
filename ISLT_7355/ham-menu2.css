@@ -27,7 +27,7 @@ li {display: inline;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 #hamitems a:hover { background: #052742; }
 
