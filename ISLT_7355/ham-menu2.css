@@ -2,7 +2,7 @@
 /* (A) WRAPPER */
 #hamnav {
   width: 100%;
-  color: #737373;
+  color: #FFFFFF;
   font-size: 20px;
   font-weight: bold;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ li {display: inline;
   flex-grow: 1;
   flex-basis: 0;
   padding: 0px;
-  color: #737373;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
@@ -48,12 +48,12 @@ li {display: inline;
   /* (B) SHOW HAMBURGER ICON */
   #hamnav label {
     display: inline-block;
-    color: #737373;
+    color: #FFFFFF;
     font-weight: bold;
     background: #a0208b;
     font-style: normal;
     font-size: 1.2em;
-    padding: 10px;
+    padding: 0px;
   }
 
   /* (C) TOGGLE SHOW/HIDE MENU */
