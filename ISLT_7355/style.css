@@ -101,13 +101,14 @@ img {
 
 
  .responsive {
-   width: 100%;
+  width: 100%;
   height: auto;
     }
 
 .headshot { 
-    width: 25%; height: auto;
-    padding-left: 40px;
+  width: 25%; 
+  height: auto;
+   
 }
 
 
