@@ -16,7 +16,7 @@ nav ul {
 }
 nav p {
    font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
+    color: #FFFFFF;
     font-size: 14px;
     line-height: 55px;
     text-align: left;
@@ -78,7 +78,7 @@ nav>ul>li:hover>ul{
 /* Dropdown Button */
 .dropbtn {
     font-family: Arial, Helvetica, sans-serif;
-    color: #737373;
+    color: #FFFFFF;
     background-color: #052742;
     padding: 16px;
     font-size: 14px;
@@ -103,7 +103,7 @@ nav>ul>li:hover>ul{
   }
   /* Links inside the dropdown */
 .dropdown-content a {
-    color: #737373;;
+    color: #FFFFFF;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
