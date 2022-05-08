@@ -29,7 +29,7 @@ li {display: inline;
   text-decoration: none;
   text-align: center;
 }
-#hamitems a:hover { background: #401408; }
+#hamitems a:hover { background: #052742; }
 
 /* (C) HIDE HAMBURGER */
 #hamnav label, #hamburger { display: none; }
