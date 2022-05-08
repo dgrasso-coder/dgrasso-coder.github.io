@@ -7,7 +7,7 @@ nav {
     height: 80px;
     background-color: #052742;
     top: 0;
- 
+    padding: 10px;
 } 
 nav ul {
     float: left;
