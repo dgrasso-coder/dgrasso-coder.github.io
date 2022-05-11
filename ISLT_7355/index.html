@@ -74,27 +74,7 @@ h1{
        </ul>
       </div>
     </nav>
- <SCRIPT LANGUAGE="JavaScript">
-<!--
 
-//Bread crumb script - Kevin Lynn Brown
-//Duplicate directory names bug fix by JavaScriptKit.com
-//Visit JavaScript Kit (http://javascriptkit.com) for script
-
-var path = "";
-var href = document.location.href;
-var s = href.split("/");
-for (var i=2;i<(s.length-1);i++) {
-path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
-}
-i=s.length-1;
-path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
-var url = window.location.protocol + "//" + path;
-document.writeln(url);
-//-->
-</script>
-
-<p align="left">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
    <h1>Dawn M. Grasso</h1>
    <h2>Welcome</h2>
    <p>  My name is Dawn Grasso, and I am pursuing my master’s degree in Learning Technologies and Design.  I welcome you to navigate through my professional 
@@ -116,6 +96,24 @@ document.writeln(url);
     <img class="pic" img src="email.jpeg" alt="email">
     <img class="picbig" img src="email.jpeg" alt="email">
     dmg5zd@missouri.edu| Copyright 2022 </footer></div>
- <!--<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a>-->            
+ <!--<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a>-->   
+    <p>COUNTS</p>
+    <div id="counter">
+        <!-- counts -->
+    </div>
+  
+    <script>
+        let counts=setInterval(updated);
+        let upto=0;
+        function updated(){
+            var count= document.getElementById("counter");
+            count.innerHTML=++upto;
+            if(upto===1000)
+            {
+                clearInterval(counts);
+            }
+        }
+    </script>
+<!--<p align="left">This free script provided by <a href="hhttps://www.geeksforgeeks.org/how-to-make-animated-counter-using-javascript/">Geeks for Geeks</a></p>--> 
     </body>
     </html>
