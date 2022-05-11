@@ -75,8 +75,24 @@ h1{
       </div>
     </nav>
     
-    <a href='https://www.free-counters.org/'>https://www.free-Counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=a3890ca5ddc5051b95824931d0c4c142772d3b29'></script>
-     <script type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/941716/t/0"></script> 
+    <h1>GeeksforGeeks</h1>
+    <p>COUNTS</p>
+    <div id="counter">
+        <!-- counts -->
+    </div>
+  
+    <script>
+        let counts=setInterval(updated);
+        let upto=0;
+        function updated(){
+            var count= document.getElementById("counter");
+            count.innerHTML=++upto;
+            if(upto===1000)
+            {
+                clearInterval(counts);
+            }
+        }
+    </script>
     
    <h1>Dawn M. Grasso</h1>
    <h2>Welcome</h2>
